@@ -7,16 +7,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
 import reactor.core.publisher.Flux;
 
 import java.util.Date;
 
+@EnableEurekaClient
 @SpringBootApplication
-public class AppReactiva2Application implements CommandLineRunner {
+public class ApiRest implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppReactiva2Application.class, args);
+		SpringApplication.run(ApiRest.class, args);
 	}
 
 	@Autowired

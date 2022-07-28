@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Flux-Eureka.iml" filepath="$PROJECT_DIR$/.idea/Flux-Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-webflux-apirest/spring-boot-webflux-apirest.iml" filepath="$PROJECT_DIR$/spring-boot-webflux-apirest/spring-boot-webflux-apirest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-webflux-client/spring-boot-webflux-client.iml" filepath="$PROJECT_DIR$/spring-boot-webflux-client/spring-boot-webflux-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-webflux-eureka-server/spring-boot-webflux-eureka-server.iml" filepath="$PROJECT_DIR$/spring-boot-webflux-eureka-server/spring-boot-webflux-eureka-server.iml" />
+    </modules>
+  </component>
+</project>
